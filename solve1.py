@@ -10,5 +10,3 @@ payload = padding + target_addr
 # 将二进制流写入文件
 with open("ans1.txt", "wb") as f:
     f.write(payload)
-
-print("Payload generated in ans1.txt")

